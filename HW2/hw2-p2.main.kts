@@ -33,8 +33,7 @@ fun wakeupTime() {
     println(WAKEUP_PROMPT)
     val input = input()
 
-    if (isAnInteger(input))
-        {
+    if (isAnInteger(input)){
             isString = false
         }
 
